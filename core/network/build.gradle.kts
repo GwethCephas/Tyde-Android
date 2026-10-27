@@ -12,12 +12,12 @@ android {
     defaultConfig {
         minSdk = 24
 
-        buildConfigField("String", "BASE_URL", "\"https://api.dev.tyde.app/\"")
+        buildConfigField("String", "BASE_URL", "\"https://tyde-backend.onrender.com/\"")
     }
 
     buildTypes {
         release {
-            buildConfigField("String", "BASE_URL", "\"https://api.tyde.app/\"")
+            buildConfigField("String", "BASE_URL", "\"https://tyde-backend.onrender.com/\"")
         }
     }
 
