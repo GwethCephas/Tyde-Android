@@ -17,3 +17,7 @@ local.properties
 app/google-services.json
 *.apk
 *.aab
+
+# Local-only docs (untracked intentionally)
+CLAUDE.md
+BACKEND_CONTRACT.md
